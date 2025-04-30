@@ -233,6 +233,7 @@ basic.forever(function () {
         basic.showNumber(sport_flag)
     } else {
         basic.showIcon(IconNames.Confused)
+        basic.showNumber(sport_flag)
     }
 })
 basic.forever(function () {
