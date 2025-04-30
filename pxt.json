@@ -1,0 +1,31 @@
+{
+    "name": "hays2_k210_tinybit_AI_line",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "Tinybit": "github:YahboomTechnology/Tiny-bitLib#v2.0.3",
+        "k210_module": "github:YahboomTechnology/K210-Module#v1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.16",
+        "tag": "v6.0.16",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/869750d0221fa2003a4e500f30f98da7a17ba278",
+        "target": "7.0.61",
+        "pxt": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
